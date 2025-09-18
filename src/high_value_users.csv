@@ -1,7 +1,7 @@
-id,name,total_value
-1,Alice Smith,4999.91
-2,Bob Johnson,1249.98
-10,Jack Black,2799.97
-8,Henry Adams,1539.96
-6,Frank White,2299.96
-3,Charlie Brown,4299.85
+id, name         , total_value
+ 1, Alice Smith  ,     4999.91
+ 2, Bob Johnson  ,     1249.98
+10, Jack Black   ,     2799.97
+ 8, Henry Adams  ,     1539.96
+ 6, Frank White  ,     2299.96
+ 3, Charlie Brown,     4299.85

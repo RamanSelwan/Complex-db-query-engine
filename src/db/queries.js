@@ -28,23 +28,21 @@ const getUserProductRecommendations = async (
 
   return { rows, total: countRows[0].total };
 };
-
-// Function to find users with total order value greater than a threshold (no pagination)
 const getHighValueUsers = async (minValue = 1000, offset = 0, limit = 10) => {
-  // Main query with pagination
+  // Main query with pagination (direct interpolation)
   const query = `
     SELECT u.id, u.name, SUM(o.quantity * p.price) AS total_value
     FROM users u
     JOIN orders o ON u.id = o.user_id
     JOIN products p ON o.product_id = p.id
     GROUP BY u.id
-    HAVING SUM(o.quantity * p.price) > ?
+    HAVING SUM(o.quantity * p.price) > ${Number(minValue)}
+    ORDER BY total_value DESC
     LIMIT ${Number(limit)} OFFSET ${Number(offset)};
   `;
+  const [rows] = await db.query(query);
 
-  const [rows] = await db.query(query, [Number(minValue)]);
-
-  // Count query (without pagination) -> total matching records
+  // Count query (without pagination)
   const countQuery = `
     SELECT COUNT(*) AS total
     FROM (
@@ -53,12 +51,14 @@ const getHighValueUsers = async (minValue = 1000, offset = 0, limit = 10) => {
       JOIN orders o ON u.id = o.user_id
       JOIN products p ON o.product_id = p.id
       GROUP BY u.id
-      HAVING SUM(o.quantity * p.price) > ?
+      HAVING SUM(o.quantity * p.price) > ${Number(minValue)}
     ) AS subquery;
   `;
+  const [countRows] = await db.query(countQuery);
 
-  const countRows = await db.query(countQuery, [Number(minValue)]);
-  return {rows, total: countRows[0].total};
+  const total = countRows[0]?.total || 0;
+
+  return { rows, total };
 };
 
 

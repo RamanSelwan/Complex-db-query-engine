@@ -1,0 +1,20 @@
+user_id, user_name    , product_id, product_name, total_quantity
+      3, Charlie Brown,          3, Tablet      ,             13
+      1, Alice Smith  ,          2, Smartphone  ,              8
+      6, Frank White  ,          2, Smartphone  ,              3
+      8, Henry Adams  ,          8, Monitor     ,              3
+     10, Jack Black   ,          1, Laptop      ,              2
+      5, Eva Green    ,          3, Tablet      ,              2
+      4, David Miller ,          4, Headphones  ,              2
+      9, Ivy Wilson   ,          4, Headphones  ,              2
+      3, Charlie Brown,          5, Smartwatch  ,              2
+      7, Grace Lee    ,          7, Printer     ,              2
+      1, Alice Smith  ,          1, Laptop      ,              1
+      2, Bob Johnson  ,          1, Laptop      ,              1
+      8, Henry Adams  ,          1, Laptop      ,              1
+      9, Ivy Wilson   ,          2, Smartphone  ,              1
+      4, David Miller ,          2, Smartphone  ,              1
+      5, Eva Green    ,          5, Smartwatch  ,              1
+      6, Frank White  ,          6, Camera      ,              1
+     10, Jack Black   ,          6, Camera      ,              1
+      2, Bob Johnson  ,          7, Printer     ,              1

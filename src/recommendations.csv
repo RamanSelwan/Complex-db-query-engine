@@ -1,0 +1,61 @@
+user_id, user_name    , product_id, product_name
+      1, Alice Smith  ,          8, Monitor
+      1, Alice Smith  ,          7, Printer
+      1, Alice Smith  ,          5, Smartwatch
+      1, Alice Smith  ,          4, Headphones
+      1, Alice Smith  ,          3, Tablet
+      1, Alice Smith  ,          2, Smartphone
+      2, Bob Johnson  ,          8, Monitor
+      2, Bob Johnson  ,          7, Printer
+      2, Bob Johnson  ,          5, Smartwatch
+      2, Bob Johnson  ,          4, Headphones
+      2, Bob Johnson  ,          3, Tablet
+      2, Bob Johnson  ,          2, Smartphone
+      3, Charlie Brown,          8, Monitor
+      3, Charlie Brown,          7, Printer
+      3, Charlie Brown,          5, Smartwatch
+      3, Charlie Brown,          4, Headphones
+      3, Charlie Brown,          3, Tablet
+      3, Charlie Brown,          2, Smartphone
+      4, David Miller ,          8, Monitor
+      4, David Miller ,          7, Printer
+      4, David Miller ,          5, Smartwatch
+      4, David Miller ,          4, Headphones
+      4, David Miller ,          3, Tablet
+      4, David Miller ,          2, Smartphone
+      5, Eva Green    ,          8, Monitor
+      5, Eva Green    ,          7, Printer
+      5, Eva Green    ,          5, Smartwatch
+      5, Eva Green    ,          4, Headphones
+      5, Eva Green    ,          3, Tablet
+      5, Eva Green    ,          2, Smartphone
+      6, Frank White  ,          8, Monitor
+      6, Frank White  ,          7, Printer
+      6, Frank White  ,          5, Smartwatch
+      6, Frank White  ,          4, Headphones
+      6, Frank White  ,          3, Tablet
+      6, Frank White  ,          2, Smartphone
+      7, Grace Lee    ,          8, Monitor
+      7, Grace Lee    ,          7, Printer
+      7, Grace Lee    ,          5, Smartwatch
+      7, Grace Lee    ,          4, Headphones
+      7, Grace Lee    ,          3, Tablet
+      7, Grace Lee    ,          2, Smartphone
+      8, Henry Adams  ,          8, Monitor
+      8, Henry Adams  ,          7, Printer
+      8, Henry Adams  ,          5, Smartwatch
+      8, Henry Adams  ,          4, Headphones
+      8, Henry Adams  ,          3, Tablet
+      8, Henry Adams  ,          2, Smartphone
+      9, Ivy Wilson   ,          8, Monitor
+      9, Ivy Wilson   ,          7, Printer
+      9, Ivy Wilson   ,          5, Smartwatch
+      9, Ivy Wilson   ,          4, Headphones
+      9, Ivy Wilson   ,          3, Tablet
+      9, Ivy Wilson   ,          2, Smartphone
+     10, Jack Black   ,          8, Monitor
+     10, Jack Black   ,          7, Printer
+     10, Jack Black   ,          5, Smartwatch
+     10, Jack Black   ,          4, Headphones
+     10, Jack Black   ,          3, Tablet
+     10, Jack Black   ,          2, Smartphone
